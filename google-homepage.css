@@ -1,3 +1,53 @@
+/* NAVBAR START*/
 .navbar{
-    
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10
 }
+
+.navlist{
+    display: flex;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.navbar-icon{
+    margin-right: 0.5rem;
+}
+
+/*  Image  */
+
+.logo-div{
+    margin-top: 15rem;
+}
+
+.logo{
+    height: 92px;
+    width: 272px;
+}
+/* SEARCH-BOX */
+.search-box-div{
+    padding-top: 1.5rem;
+
+}
+.search-box{
+    box-sizing: border-box;
+    width: 75vh;
+    height: 39px;
+    max-width: 536px;
+    border-radius: 50px;
+   
+}
+
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+

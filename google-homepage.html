@@ -2,13 +2,14 @@
 <html>
 <head>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="google-homepage.css">
     <title>Google</title>
 </head>
     
 <body>
      <!----------------------------- NAV BAR ------------------------------- -->
 <nav class="navbar">
-    <ul>
+    <ul class="navlist">
         <il id="gmail-link" class="navbar-icon"> <a href="" target="_blank">Gmail</a> </il>
         <il id="images-link" class="navbar-icon"> <a href="" target="_blank"> Images</a> </il>
         <il id="app-link" class="navbar-icon"> <a href="" target="_blank"><img src="" alt="Google apps"></a></il>
@@ -19,13 +20,13 @@
 
     <!------------------------------ START LOGO------- ----------------------->
 <div class="logo-div">
-<img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo">
+    <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo">
 </div>
 <!--------------------------------------END LOGO --------------------->
 
 <!----------------------------------------START SERACHBOX --------------------------->
 <div class="search-box-div">
-    <input type="text" class="search-box" id="search-box"></input>
+    <input type="text" class="search-box" id="search-box" name="search-box" onchange="hideIcon(this);" placeholder="" ></input>
 </div>
 <!------------------------------------END SEARCHBOX------------------------------------->
 
