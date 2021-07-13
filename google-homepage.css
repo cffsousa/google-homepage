@@ -1,5 +1,7 @@
 /* NAVBAR START*/
 .navbar{
+    position: absolute;
+    top: 0;
     display: flex;
     justify-content: flex-end;
     justify-items: center;
@@ -8,6 +10,7 @@
     left: 0;
     width: 100%;
     z-index: 10
+    
 }
 
 .navlist{
@@ -58,7 +61,7 @@
 /*  Image  */
 
 .logo-div{
-    margin-top: 15rem;
+    margin-top: 27vh;
 }
 
 .logo{
@@ -78,6 +81,17 @@
     border:1px solid #dcdcdc;
     border-radius: 24px;
     box-shadow: none;
+    background-color: transparent;
+    padding: 0 40px;
+}
+
+.search-img{
+    position: absolute;
+    height: 13.5833px;
+    width: 13.5833px;
+    margin-left: -567px;
+    margin-top: 16px;
+    filter: opacity(40%);
 }
 
 /* Buttons */
@@ -108,13 +122,45 @@
     font-family: Arial, sans-serif;
     font-size: 14px;
 }
+/* Language */
 
 #language{
     font-size: small;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 20px;    
+}
+/* Footer */
+#footer{
+    position: absolute;
+    bottom: 0;
+    background: #f2f2f2;
+    width: 100%;
+    height: 95px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    line-height: 14px;
+}
+#footer-top{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    margin-bottom: 15px;
+    color: rgba(0,0,0,0.54);
+    font-size: 15px;
+}
+#footer-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 20px;
     
 }
+
+.footer-link{
+
+    padding: 15px;
+    white-space: nowrap;
+}
+/* General */
 
 body{
     display:flex;
@@ -137,3 +183,9 @@ a.navbar-icon:visited { text-decoration: none; color: rgba(0,0,0,0.87); }
 a.navbar-icon:hover { text-decoration: none; color:rgba(0,0,0,0.87); }
 a.navbar-icon:focus { text-decoration: none; color:rgba(0,0,0,0.87); }
 a.navbar-icon:hover, a.navbar-icon:active { text-decoration: none; color:rgba(0,0,0,0.87) }
+
+a.footer-link{ color: rgba(0,0,0,0.87);}
+a.footer-link:visited { text-decoration: none; color: #70757a; }
+a.footer-link:hover { text-decoration: none; color: #70757a; }
+a.footer-link:focus { text-decoration: none; color:#70757a; }
+a.footer-link:hover, a.footer-link:active { text-decoration: none; color:#70757a }
