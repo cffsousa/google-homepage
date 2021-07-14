@@ -107,7 +107,7 @@
 .button{
     box-sizing: content-box;
     margin: 11px 4px;
-    width: 127.367px;
+    width: 93.367px;
     height: 36px;
     padding: 0px 16px;
     border: 1px solid #f8f9fa;
@@ -121,6 +121,10 @@
     color: #3c4043;
     font-family: Arial, sans-serif;
     font-size: 14px;
+}
+
+#lucky-button{
+    width: 108.467px;
 }
 /* Language */
 
